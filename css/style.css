@@ -271,17 +271,17 @@ p{
 #destination{
     margin-top: 100px;
 }
-.destination-text, .choose-us-text{
+.destination-text, .choose-us-text, .travel-guides-content{
     text-align: center;
     margin: 0 auto 50px auto;
     width: 50%;
 }
-.destination-text h2, .choose-us-text h2{
+.destination-text h2, .choose-us-text h2, .travel-guides-content h2{
     font-size: var(--h-font-size);
     color: var(--h-font-color);
     font-weight: 800; 
 }
-.destination-text p, .choose-us-text p{
+.destination-text p, .choose-us-text p, .travel-guides-content p{
     font-size: var(--p-font-size);
     color: var(--p-font-color);
     font-weight: 400;
@@ -440,10 +440,38 @@ p{
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* Start Travel Guides Section Style Here */
+
+#travel-guides{
+    margin-top: 60px;
+}
+.travel-area{
+    background: rgba(251, 181, 99, 0.05);
+    padding: 80px 0 60px 0;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.travel-guides-book{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.travel-book-item{
+    width: 300px;
+}
+.travel-guides-book img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
  /* Start Place Section Style Here */
 
  #place-section{
-    margin-top: 80px;
+    margin-top: 100px;
  }
 .place-area{
     display: flex;
