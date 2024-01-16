@@ -102,7 +102,7 @@
         width: 100%;
         margin-bottom: 30px;
     }
-    .destination-text h2, .choose-us-text h2, .travel-guides-content h2{
+    .destination-text h2, .choose-us-text h2, .travel-guides-content h2, .discount-content h2{
        font-size: 1.5rem;
     }
 
@@ -170,7 +170,52 @@
         align-items: center;
     }
 
-    /* Place Guides Area Style */
+    /* Start Discount Section Style Here */
+
+    
+    #discount{
+        margin-top: 60px;
+    }
+    .discount-content{
+        width: 100%;
+    }
+    .discount-box, .discount-box-2{
+        border-radius: 16px;
+        align-items: end;
+        padding: 0 10px 10px 10px;
+    }
+
+    .discount-box-content{
+        height: 360px;
+        padding: 20px 15px 15px 15px;  
+        margin: 0 auto;
+    }
+    .discount-text{
+        margin: 20px 0;
+    }
+    .discount-text h3{
+        font-size: 1.25rem;
+    }
+    .discount-text > p{
+        font-size: 0.875rem;
+        margin: 10px 0;
+    }
+    .discount-text > h4{
+        font-size: 1rem;
+    }
+    .btn-book{
+        margin-top: 28px;
+    }
+    .btn-book > a{
+        font-size: 1.125rem;
+    }
+    .discount-box-content span{
+        margin-right: 18px;
+        display: block;
+        margin-top: 5px;
+    }
+
+    /* Place Area Style */
 
     #place-section{
         margin-top: 40px;
@@ -401,7 +446,23 @@
         margin-top: 40px;
     }
 
-    /* Place Guides Area Style */
+    /* Start Travel Guides Section Style Here */
+
+    #discount{
+        margin-top: 80px;
+    }
+    .discount-content{
+        width: 100%;
+    }
+
+    .discount-box, .discount-box-2{
+        border-radius: 16px;
+        align-items: end;
+        padding: 0 22px 25px 23px;
+    }
+
+
+    /* Place Area Style */
 
     #place-section{
         margin-top: 40px;
