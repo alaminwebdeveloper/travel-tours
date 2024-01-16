@@ -1,0 +1,250 @@
+
+/* Start Responsive CSS Style Here */
+
+/* Mobile Device Responsive CSS Styale */
+@media screen and (max-width:600px) {
+    /* Header Area Style */
+    .logo{
+        width: 90%;
+        display: flex;
+    }
+
+    .nav{
+        display: none;
+        width: 10%;
+    }
+
+    .logo h2{
+        font-size: 2rem;
+      }
+    .logo span{
+        font-size: 2rem;
+      }
+    .logo img{
+        width: 15%;
+        margin-left: 5px;
+    }
+    .nav-icon{
+        display: block;
+        margin-top: 5px;
+    }
+
+    /* Banner Area Style */
+
+    .banner-area{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        border-radius: 16px;
+        height: 550px;
+     }
+     .banner-text {
+        padding: 40px 10px 30px 10px;
+     }
+
+     .banner-text h1{
+        font-size: 1.5rem;
+     }
+
+     .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        width: 90%; 
+        align-items: center;
+     }
+     .info-search{
+        width: 100%;
+        margin-bottom: 5px;
+     }
+
+     .search-bar{
+        width: 100%;
+        padding: 15px 0;
+     }
+     .search-bar input{
+        left: 0;
+        width: 100%;
+        margin-top: 5px;
+     }
+    
+     /* Tours Area Style */
+
+     #tours-section{
+        margin-top: 30px;
+     }
+     .tours-area{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .tours-content h2{
+       font-size: 1.5rem;
+    }
+    .tours-list{
+        padding-right: 20px;
+    }
+    .tours-pra{
+        padding-right: 0;
+    }
+    .tours-img img{
+        width: 100%;
+    }
+
+        /* Destination Area Style */
+
+    #destination{
+        margin-top: 40px;
+    }
+    .destination-text, .choose-us-text, .travel-guides-content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .destination-text h2, .choose-us-text h2, .travel-guides-content h2{
+       font-size: 1.5rem;
+    }
+
+    .destination-img{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .grid-item1{
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+    .grid-item2{
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+    }
+    .grid-item3{
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+    .grid-item4{
+        grid-column: 1/span 1;
+        grid-row: 4/span 1;
+    }
+    .grid-item5{
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+    }
+    .grid-item6{
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+    }
+    .grid-item7{
+        grid-column: 1/span 1;
+        grid-row: 7/span 1;
+    }
+    .destination-img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    /* Choose-Us Area Style */
+
+    #choose-us{
+        margin-top: 40px;
+    }
+    .choose-us-box-1{
+        flex-basis: 100%;
+    }
+
+      /* Travel Guides Area Style */
+
+    #travel-guides{
+        margin-top: 40px;
+    }
+    .travel-area{
+        padding: 40px 0 30px 0;
+    }
+    .travel-guides-book{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Place Guides Area Style */
+
+    #place-section{
+        margin-top: 40px;
+     }
+
+     .place-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .place-text{
+        width: 100%;
+    }
+    
+    .place-text h2{
+      font-size: 1.5rem;
+      line-height: 36px;
+    }
+    .place-video{
+        width: 100%;
+        margin-top: 60px;
+    }
+ 
+    /* Newsletter Area Style */
+
+    #newsletter{
+        margin-top: 60px;
+    }
+    .newsletter-area{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .newsletter-content{
+        grid-column: 1/span 12;
+        grid-row: 1/span 1;
+    }
+    .newsletter-img{
+        grid-column: 1/span 12;
+        grid-row: 2/span 1;
+    }
+    .newsletter-img img{
+        width: 100%;
+    }
+    .save{
+        bottom: 35px;
+        right: 6px;
+        width: 220px;
+        height: 100px;
+    }
+    .save span{
+        font-size: 1rem;
+    }
+    .save h3{
+        font-size: 1.5rem;
+    }
+
+
+    /* Footer Area Style */
+
+    #footer{
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+    .footer-content{
+        padding: 0 0px;
+        margin: 0 0px;
+      
+    }
+
+
+}
+
+/* Tablet Device Responsive CSS Styale */
+
+@media screen and (min-width:600px) and (max-width:992px) {
+    
+}

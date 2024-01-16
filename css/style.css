@@ -76,7 +76,7 @@ p{
 }
 .logo span{
   color: var(--primary-color);
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 800;
 }
 .nav{
@@ -102,6 +102,12 @@ p{
 }
 .nav .active{
   color: var(--primary-color);
+}
+.nav-icon{
+    display: none;
+}
+.nav-icon i{
+    font-size: 30px;
 }
 
 /* Start Banner Section Style Here */
@@ -464,10 +470,6 @@ p{
     object-fit: cover;
 }
 
-
-
-
-
  /* Start Place Section Style Here */
 
  #place-section{
@@ -688,3 +690,6 @@ p{
     font-weight: 300;
     margin-top: 40px;
 }
+
+       /* Thank You */
+/*=== End The CSS Style ===*/
