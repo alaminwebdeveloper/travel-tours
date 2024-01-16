@@ -1,0 +1,43 @@
+
+/* Google Font Here */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+/*  Start Universal Style Here */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color: #FF5400;
+  --h-font-size: 2.5rem;
+  --h-font-color: #131318;
+  --p-font-size: 1rem;
+  --p-font-color:rgba(19, 19, 24, 0.70);
+}
+
+body{
+  font-family: 'Mulish', sans-serif;
+  font-size: var(--p-font-size);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Mulish', sans-serif;
+}
+p{
+  font-family: 'Mulish', sans-serif;
+  font-size: var(--p-font-size);
+}
+.btn a{
+  background-color: var(--primary-color);
+  padding: 14px 35px;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 8px;
+}
