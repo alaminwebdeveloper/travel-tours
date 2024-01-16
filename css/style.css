@@ -602,3 +602,61 @@ p{
     font-size: 2rem;
     font-weight: 800;
 }
+
+/* Start Footer Section Style Here */
+
+#footer{
+    margin-top: 100px;
+    padding: 80px 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-area{
+    text-align: center;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.footer-logo h3{
+    color: var(--h-font-color);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-logo span{
+    color: var(--primary-color);
+}
+.footer-content{
+    padding: 0 60px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 0 140px;
+  
+}
+.footer-content p{
+    color: var(--p-font-color);
+    font-size: var(--p-font-size);
+    font-weight: 400;
+    line-height: 26px;
+    padding: 15px 0 25px 0;
+}
+
+.footer-social-icon{
+    margin-bottom: 35px;
+}
+.footer-social-icon i{
+    font-size: 2rem;
+    color: var(--h-font-color);
+    padding-left: 20px;
+}
+.footer-social-icon i:first-child{
+    padding: 0;
+}
+.copy-right-text{
+    color: var(--h-font-color);
+    font-size: var(--p-font-size);
+    font-weight: 300;
+    margin-top: 40px;
+}
